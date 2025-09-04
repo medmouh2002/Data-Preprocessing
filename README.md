@@ -4,18 +4,19 @@ This folder contains projects related to **data preprocessing** — preparing ra
 
 ## Projects
 
-### 1. License Plate Preprocessing
-- Dataset: Algerian License Plate Dataset (private source)  
-- Techniques:
-  - Image resizing & grayscale conversion
-  - Histogram equalization
-  - Thresholding & edge detection
-  - Bounding box extraction
-- Tools: OpenCV, NumPy, Matplotlib  
-- Example:
-  | Original | Preprocessed |
-  |----------|--------------|
-  | ![Before](images/sample_before.png) | ![After](images/sample_after.png) |
+1. **License Plate Preprocessing** (`notebooks/license_plate_preprocessing.ipynb`)  
+   - Dataset: Algerian vehicle license plate images (private dataset)  
+   - Steps:
+     - Image resizing & grayscale conversion
+     - Histogram equalization
+     - Thresholding & edge detection
+     - Bounding box extraction
+   - Tools: OpenCV, NumPy, Matplotlib  
+   - Example:  
+
+   | Original | Preprocessed |
+   |----------|--------------|
+   | ![Before] | ![After] |
 
 ### 2. **NLP Preprocessing Techniques** (`notebooks/NLP_and_Preprocessing_Techniques.ipynb`)  
    - Focus: preparing raw text data for Natural Language Processing tasks.  
